@@ -13,8 +13,8 @@ except AttributeError:
 # File paths
 current_dir = os.path.dirname(os.path.abspath(__file__))
 csv_file_path = os.path.join(current_dir, "Dataset_large.csv")
-prompt_file_path = os.path.join(current_dir, "counsel_graph_schema_create_prompt.md")
-output_json_path = os.path.join(current_dir, "counsel_graph_data.json")
+prompt_file_path = os.path.join(current_dir, "extraction_prompt.md")
+output_json_path = os.path.join(current_dir, "graph_data.json")
 
 # Define Enums for validation/normalization
 VALID_NODE_TYPES = {
@@ -22,7 +22,10 @@ VALID_NODE_TYPES = {
     "trigger/event": "Trigger/Event",
     "intervention/strategy": "Intervention/Strategy",
     "concept": "Concept",
-    "document/interaction": "Document/Interaction"
+    "document/interaction": "Document/Interaction",
+    "condition/disorder": "Condition/Disorder",
+    "medication": "Medication",
+    "provider/professional": "Provider/Professional"
 }
 
 VALID_RELATIONS = {
@@ -31,7 +34,9 @@ VALID_RELATIONS = {
     "alleviates": "ALLEVIATES",
     "explains": "EXPLAINS",
     "has_context": "HAS_CONTEXT",
-    "suggests": "SUGGESTS"
+    "suggests": "SUGGESTS",
+    "treats": "TREATS",
+    "prescribes": "PRESCRIBES"
 }
 
 # Load the prompt instructions

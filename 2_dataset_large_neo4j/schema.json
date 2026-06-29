@@ -21,7 +21,10 @@
                             "Trigger/Event",
                             "Intervention/Strategy",
                             "Concept",
-                            "Document/Interaction"
+                            "Document/Interaction",
+                            "Condition/Disorder",
+                            "Medication",
+                            "Provider/Professional"
                         ],
                         "description": "해당 엔티티가 속하는 카테고리"
                     }
@@ -54,7 +57,9 @@
                             "ALLEVIATES",
                             "EXPLAINS",
                             "HAS_CONTEXT",
-                            "SUGGESTS"
+                            "SUGGESTS",
+                            "TREATS",
+                            "PRESCRIBES"
                         ],
                         "description": "두 노드 간의 구체적인 관계 유형"
                     }

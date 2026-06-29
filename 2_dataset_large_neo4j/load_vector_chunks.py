@@ -38,8 +38,7 @@ with open(csv_file_path, "r", encoding="utf-8") as f:
                     "chunk_id": f"chunk_{idx:03d}",
                     "text": chunk_text
                 })
-                if len(unique_conversations) >= 50:
-                    break
+
 
 print(f"Loaded {len(unique_conversations)} unique conversations for chunking.")
 

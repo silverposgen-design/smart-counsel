@@ -5,19 +5,24 @@
 파일 : Dataset_small.csv
 
 [노드(Node) 타입 정의]
-- Emotion/Symptom: 내담자가 겪는 감정이나 증상 (예: 우울증, 불면증)
-- Trigger/Event: 증상을 유발한 사건이나 상황 (예: 이혼, 직장 스트레스)
-- Intervention/Strategy: 상담사가 제안하는 치료법이나 대처 행동 (예: 심호흡, 일기 쓰기)
-- Concept: 심리학적 개념 (예: 자존감, 투쟁-도피 반응)
+- Emotion/Symptom: 내담자가 겪는 일시적이거나 비임상적인 감정 및 증상 (예: 슬픔, 무가치함, 걱정 등)
+- Trigger/Event: 증상을 유발한 사건이나 상황 (예: 이혼, 직장 스트레스, 학대 경험 등)
+- Intervention/Strategy: 상담사가 제안하는 비약물 대처 행동 및 조언 (예: 심호흡, 일기 쓰기, 요가, 노출 치료 등)
+- Concept: 심리학적 개념 및 이론 (예: 자존감, 투쟁-도피 반응 등)
 - Document/Interaction: 상담 기록 번호 (예: Document_001)
+- Condition/Disorder: 공식적인 의학적/정신의학적 진단명이나 만성 질환 (예: ADHD, PTSD, 우울장애, 공황장애, 암, 만성 통증 등)
+- Medication: 처방받은 정신과적 약물 또는 화학적 치료 물질 (예: Xanax, Prozac, Wellbutrin, 항우울제 등)
+- Provider/Professional: 상담 혹은 약물을 처방/권고하는 의료/상담 전문가 (예: Psychiatrist, Psychologist, Doctor, Therapist 등)
 
 [엣지(Edge) 타입 정의]
-- CAUSES: Trigger/Event가 Emotion/Symptom을 유발함
-- CO-OCCURS_WITH: Emotion/Symptom 간에 동반되어 나타남
-- ALLEVIATES: Intervention/Strategy가 Emotion/Symptom을 완화하거나 치료함
-- EXPLAINS: Concept이 Emotion/Symptom을 설명함
-- HAS_CONTEXT: Document가 Trigger/Event 또는 Emotion/Symptom을 포함함
-- SUGGESTS: Document가 Intervention/Strategy를 제안함
+- CAUSES: Trigger/Event나 Condition/Disorder가 Emotion/Symptom을 유발함
+- CO-OCCURS_WITH: 두 개의 Emotion/Symptom 또는 Condition/Disorder가 동시에 또는 동반되어 나타남
+- ALLEVIATES: Intervention/Strategy 또는 Medication이 Emotion/Symptom 혹은 Condition/Disorder를 완화하거나 치료함
+- EXPLAINS: Concept이 Emotion/Symptom 혹은 Condition/Disorder를 설명함
+- HAS_CONTEXT: Document가 Trigger/Event, Emotion/Symptom, Condition/Disorder 또는 Medication을 포함함
+- SUGGESTS: Document가 Intervention/Strategy 혹은 Medication을 제안함
+- TREATS: Medication 또는 Intervention/Strategy가 Condition/Disorder를 완화/치료함
+- PRESCRIBES: Provider/Professional이 Medication을 처방함
 
 반드시 아래의 JSON 스키마 형식을 엄격하게 지켜서 답변을 생성하세요.
 {
@@ -43,7 +48,10 @@
                             "Trigger/Event",
                             "Intervention/Strategy",
                             "Concept",
-                            "Document/Interaction"
+                            "Document/Interaction",
+                            "Condition/Disorder",
+                            "Medication",
+                            "Provider/Professional"
                         ],
                         "description": "해당 엔티티가 속하는 카테고리"
                     }
@@ -76,7 +84,9 @@
                             "ALLEVIATES",
                             "EXPLAINS",
                             "HAS_CONTEXT",
-                            "SUGGESTS"
+                            "SUGGESTS",
+                            "TREATS",
+                            "PRESCRIBES"
                         ],
                         "description": "두 노드 간의 구체적인 관계 유형"
                     }
