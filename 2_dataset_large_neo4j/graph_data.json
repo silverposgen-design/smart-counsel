@@ -5,23 +5,35 @@
             "type": "Document/Interaction"
         },
         {
-            "id": "Feeling of worthlessness",
+            "id": "수면 부족",
             "type": "Emotion/Symptom"
         },
         {
-            "id": "Insomnia",
+            "id": "무가치함",
             "type": "Emotion/Symptom"
         },
         {
-            "id": "Changing social context",
+            "id": "자존감",
+            "type": "Concept"
+        },
+        {
+            "id": "사회적 맥락",
+            "type": "Concept"
+        },
+        {
+            "id": "긍정적인 관계 형성",
             "type": "Intervention/Strategy"
         },
         {
-            "id": "Reading inspirational messages",
+            "id": "소셜 미디어 메시지 읽기",
             "type": "Intervention/Strategy"
         },
         {
-            "id": "Self-esteem",
+            "id": "나쁜 감정",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "자기 개선 노력",
             "type": "Concept"
         },
         {
@@ -29,71 +41,71 @@
             "type": "Document/Interaction"
         },
         {
-            "id": "History of sexual abuse",
-            "type": "Trigger/Event"
-        },
-        {
-            "id": "Breast cancer survivor",
-            "type": "Trigger/Event"
-        },
-        {
-            "id": "Depression",
-            "type": "Emotion/Symptom"
-        },
-        {
-            "id": "Anxiety",
-            "type": "Emotion/Symptom"
-        },
-        {
-            "id": "Low self-esteem",
-            "type": "Emotion/Symptom"
-        },
-        {
-            "id": "Psychotherapy",
-            "type": "Intervention/Strategy"
-        },
-        {
-            "id": "Developing coping strategies",
-            "type": "Intervention/Strategy"
-        },
-        {
             "id": "Document_003",
             "type": "Document/Interaction"
         },
         {
-            "id": "Depressive mood",
+            "id": "슬픔 (down)",
             "type": "Emotion/Symptom"
         },
         {
-            "id": "Panic attacks",
+            "id": "수면 문제",
             "type": "Emotion/Symptom"
         },
         {
-            "id": "Self-acceptance",
+            "id": "공황 발작 (panic attacks)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "자기 수용 (self-acceptance)",
+            "type": "Concept"
+        },
+        {
+            "id": "심호흡",
             "type": "Intervention/Strategy"
         },
         {
-            "id": "Daytime sleeping",
+            "id": "낮잠 자기",
             "type": "Intervention/Strategy"
+        },
+        {
+            "id": "감정적 정화 과정 (clearing out worn out emotional clutter)",
+            "type": "Concept"
+        },
+        {
+            "id": "안정화 (stabilize yourself)",
+            "type": "Emotion/Symptom"
         },
         {
             "id": "Document_004",
             "type": "Document/Interaction"
         },
         {
-            "id": "Intrusive thoughts",
+            "id": "severe depression",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "anxiety",
             "type": "Emotion/Symptom"
         },
         {
-            "id": "Meditation",
+            "id": "마음이 산만함",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "명상",
             "type": "Intervention/Strategy"
         },
         {
-            "id": "Hypnosis",
+            "id": "최면",
             "type": "Intervention/Strategy"
         },
         {
-            "id": "Journaling",
+            "id": "진정 및 평온함 찾기",
+            "type": "Concept"
+        },
+        {
+            "id": "일기 쓰기",
             "type": "Intervention/Strategy"
         },
         {
@@ -101,252 +113,3633 @@
             "type": "Document/Interaction"
         },
         {
-            "id": "Lack of contentment",
+            "id": "content from day to day",
             "type": "Emotion/Symptom"
         },
         {
-            "id": "Unsettled emotions",
+            "id": "reflect on situations in our lives",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "strong unsettled emotion from the recent past",
             "type": "Emotion/Symptom"
         },
         {
-            "id": "Upsetting events in the recent past",
+            "id": "Document_006",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "severe back problem",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "constant pain",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "depression",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "chronic pain",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "L4-L5 kidney zone",
+            "type": "Concept"
+        },
+        {
+            "id": "Bone spurs, fused discs, and slipped discs",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "connective tissue weakness",
+            "type": "Concept"
+        },
+        {
+            "id": "calcium deposits",
+            "type": "Concept"
+        },
+        {
+            "id": "natural means",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Pharmaceutical means",
+            "type": "Medication"
+        },
+        {
+            "id": "Document_007",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "adult ADHD",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "anxiety disorder",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "실직 상태",
             "type": "Trigger/Event"
         },
         {
-            "id": "Emotional self-awareness",
+            "id": "압도감",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "상담사 조언 (비공식)",
             "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_008",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "발기부전 경험",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "자존감 저하",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "우울증",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "결혼 생활 문제",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "의학적 검진 필요성",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "심리적 원인 탐색",
+            "type": "Concept"
+        },
+        {
+            "id": "스트레스 (직장)",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "내면 성찰 및 소통",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_009",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "심한 기분 변화",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "에너지 부족",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "집중력 저하",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "어두운 삶의 전망",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "균형 잡힌 삶",
+            "type": "Concept"
+        },
+        {
+            "id": "신체적 접근 및 영적 정화",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_010",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "self-harm",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "sad or depressing feelings",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "high anxiety",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "endorphins release",
+            "type": "Concept"
+        },
+        {
+            "id": "addiction (self-harm)",
+            "type": "Concept"
+        },
+        {
+            "id": "Dialectic Behavior Therapy",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Interpersonal Neurobiology",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "snapping a rubber band on the wrist",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Psychologist/Therapist (DBT trained)",
+            "type": "Provider/Professional"
+        },
+        {
+            "id": "Document_011",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "general anxiety",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "emotional support dog (ESD)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "landlord rejection",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "consider a different apartment",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_012",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "우울감",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "남편의 무시",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "자존감 문제",
+            "type": "Concept"
+        },
+        {
+            "id": "I-statements 사용",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "커플 상담",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "대화 시간 계획 및 메모 작성",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_013",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "슬픔에 빠지는 경향성",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "부정적인 내용에 몰두함",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "슬픈 음악 듣기",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "비극적 이야기 읽기",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "부정적인 측면에 집중하는 경향성",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "미처 알지 못하는 이점 찾기",
+            "type": "Concept"
+        },
+        {
+            "id": "중독",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "전문 치료사와의 탐색",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Therapist",
+            "type": "Provider/Professional"
+        },
+        {
+            "id": "Document_014",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "슬픔 (계절성)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "겨울 날씨 변화",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "Seasonal Affective Disorder (S.A.D.)",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "심리 치료 참여",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "사회 활동 증가",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "S.A.D. Light 사용",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "비타민 D 수치 증가",
+            "type": "Concept"
+        },
+        {
+            "id": "Document_015",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "이혼",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "직장 경력 29년",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "피로함",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "기쁨 상실",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "통제력 상실감",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "우울함",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "무기력한 일상생활",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "정서적 지지 부족",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "스트레스 완화 방법 탐색",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "휴식 및 자기 돌봄 시간 확보",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "변호사 상담을 통한 양육권 조정",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_016",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "무기력함",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "집중력 부족",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "방향 상실감",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "성취도에 대한 실망",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "타인에게 맞춰주는 사람 (People-pleaser)",
+            "type": "Concept"
+        },
+        {
+            "id": "자기 돌봄 소홀",
+            "type": "Concept"
+        },
+        {
+            "id": "가족 부양 역할 수행 경험",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "경계 설정의 어려움",
+            "type": "Concept"
+        },
+        {
+            "id": "낮은 자존감",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "혼란스러운 자아 인식",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "자기 자신을 위한 삶의 창조",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "경계 설정하기",
+            "type": "Concept"
+        },
+        {
+            "id": "시간 및 에너지 흡수원 식별 및 제한",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "즐거운 활동 참여",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "신선한 공기 <0xEC><0x90><0xAC>기",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "충분한 수면 취하기",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "영양가 있는 음식 섭취",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_017",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "자살 사고 (Suicidal Ideation)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "슬픔",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "불안정감 (Insecurity)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "자기 탐색 질문 던지기",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "자신을 공부하기",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_018",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "사랑의 어려움",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "상실감",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "가족과의 거리감",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "자신의 감정 수용",
+            "type": "Concept"
+        },
+        {
+            "id": "Document_019",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "이능화(Enabling)",
+            "type": "Concept"
+        },
+        {
+            "id": "단호한 경계 설정 (Clear boundaries)",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "개인적 성찰",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "혼자만의 시간 갖기",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_020",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "아버지의 수감",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "역할 과부하 (Parent Role)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "불안정함",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "상처받음",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "감정적 붕괴 (Breaking Down)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "블로그 및 포럼 탐색",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "지지적인 외부 관계 찾기",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "치료사 (Therapist)",
+            "type": "Provider/Professional"
+        },
+        {
+            "id": "Document_021",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "잃어버린 정체성",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "불행하고 갇힌 느낌",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "개인적 성장 욕구",
+            "type": "Concept"
+        },
+        {
+            "id": "자신에게 시간 주기",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_022",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "우울감 악화",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "상담",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "인지행동치료와마음챙김",
+            "type": "Concept"
+        },
+        {
+            "id": "해결중심단기치료",
+            "type": "Concept"
+        },
+        {
+            "id": "회복탄력성 증가",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "긍정적 자기 대화",
+            "type": "Concept"
+        },
+        {
+            "id": "Psychologist",
+            "type": "Provider/Professional"
+        },
+        {
+            "id": "Document_023",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "소속감 부족",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "좋은 시간을 보내도 공허함",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "자아 정체성 확립의 어려움",
+            "type": "Concept"
+        },
+        {
+            "id": "직장 생활을 통한 자립",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "개인의 흥미와 선호도 파악",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "의학적 장애 또는 질환",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "직업 선택 및 지역 탐색 노력",
+            "type": "Concept"
+        },
+        {
+            "id": "Document_024",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "걱정",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "친구의 우울증 의심",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "고립됨",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "공허함",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "분노와 슬픔",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "상담 및 도움 요청",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "치료(Therapy)",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_025",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "jaded",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "thoughts를 통제할 수 없음",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "불안 발작",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "스트레스 상황",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "긴장감 이해하기",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "생각에 주의 기울이기",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "불안 (Anxiety)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "Document_026",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "짜증",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "특정 사람과의 만남",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "집에 가는 상황",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "감정의 실재성",
+            "type": "Concept"
+        },
+        {
+            "id": "모든 감정의 목적",
+            "type": "Concept"
+        },
+        {
+            "id": "감정 식별 및 처리 방법 학습",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Licensed Professional Counselor",
+            "type": "Provider/Professional"
+        },
+        {
+            "id": "Document_027",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "청소년기",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "우울증 에피소드",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "공황 발작",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "통제 불가능한 두려움",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "삶과 죽음에 대한 무관심",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "가족과의 대화 어려움",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "감정적 불편함",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "심리 상담 전문가와의 만남",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "학교 상담사 연락",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "텍사스 위기 핫라인 (800-989-6884)",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "국가 위기 핫라인 (1-800-273-8255)",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_028",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "lazy",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "numbness",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "no interest",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "rest",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "energy regain",
+            "type": "Concept"
+        },
+        {
+            "id": "Document_029",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "불안",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "미소포니아",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "경계성 성격 장애",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "회피성 성격 장애",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "Document_030",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "최근 친구 상실",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "외로움",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "새로운 친구 사귀기 노력",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "신뢰와 공통 관심사 기반의 우정",
+            "type": "Concept"
+        },
+        {
+            "id": "Document_031",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "지속적인 눈물 흘림",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "가족 갈등",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "가족 시스템 이론 학습",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "친구들과의 관계 유지",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_032",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "사고 과다 활동 (Racing thoughts)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "피부 뜯기 (Skin picking)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "싸움을 유발함",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "관계 개선 노력",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "삶의 통제감 회복",
+            "type": "Concept"
+        },
+        {
+            "id": "불안 및 우울증",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "Document_033",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "depressed",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "찾을 사람",
+            "type": "Concept"
+        },
+        {
+            "id": "therapist 찾기 (Psychology Today, Counsel Chat)",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_034",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "bad mood",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "lack of energy",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "Irritable mood",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "Depressed mood",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "Decreased interest or pleasure in activities",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "Significant weight change or change in appetite",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "Change in sleep (insomnia or hypersomnia)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "Psychomotor aggitation or retardation",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "Fatigue or loss in energy",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "Feelings of worthlessness or excessive guilt",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "Diminished ability to concentrate or indecisiveness",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "Thoughts of suicide or plan",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "physician",
+            "type": "Provider/Professional"
+        },
+        {
+            "id": "therapist",
+            "type": "Provider/Professional"
+        },
+        {
+            "id": "Document_035",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "late teens",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "college classes",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "사회적 위축 (Social Withdrawal)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "무가치함 (Worthlessness)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "Major Depressive Disorder",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "introverted behavior",
+            "type": "Concept"
+        },
+        {
+            "id": "자존감 (Self-esteem)",
+            "type": "Concept"
+        },
+        {
+            "id": "심리 상담 (Psychotherapy)",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_036",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "수면 장애 (불면)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "식욕 변화 (과도한 배고픔 또는 식욕 부진)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "쉽게 화냄",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "울기 쉬움",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "우울감 (down)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "친구의 지지 및 경청",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "사랑받는 느낌",
+            "type": "Concept"
+        },
+        {
+            "id": "Document_037",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "moodiness",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "empty and emotionless",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "trust issues",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "low self esteem",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "fear of abandonment",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "reevaluate relationships",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "not happy overall",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "Teenage years",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "reflect on topics",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "know you deserve to be restored to whole",
+            "type": "Concept"
+        },
+        {
+            "id": "Document_038",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "Troubled upbringing",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "Overwhelmed",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "Depression",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "Childhood therapy experience",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "Therapy at this point in your life",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Finding faith in yourself",
+            "type": "Concept"
+        },
+        {
+            "id": "Caring therapist",
+            "type": "Provider/Professional"
+        },
+        {
+            "id": "Document_039",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "성인 생활 스트레스",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "분노",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "관계 문제",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "자기 자신에게 집중하기",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "자존감 향상",
+            "type": "Concept"
+        },
+        {
+            "id": "Document_040",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "어머니와의 갈등",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "좌절감",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "중립적인 시간 활용",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "명상 수용",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_041",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "슬픔 (all the time)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "가족에 대한 부정적 감정",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "우울증 (Depression)",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "자존감 및 자아 가치 (self-esteem and self-worth)",
+            "type": "Concept"
+        },
+        {
+            "id": "가족 관계 문제",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "심리 상담사(Psychologist)와의 상담",
+            "type": "Provider/Professional"
+        },
+        {
+            "id": "치료사(Therapist)의 도움",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Dr. Virginia Chow",
+            "type": "Provider/Professional"
+        },
+        {
+            "id": "Document_042",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "과잉일반화",
+            "type": "Concept"
+        },
+        {
+            "id": "긍정적 감정 경험",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "Document_043",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "우울증(depression)",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "고립감",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "수치심",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "만연한 죄책감",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "자기애와 친절함",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "스스로에게 공감하기",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_044",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "만성 질환",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "삶의 변화에 대한 절망감",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "자기 수용 및 자기 돌봄",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "생각의 재구성",
+            "type": "Concept"
+        },
+        {
+            "id": "상담사",
+            "type": "Provider/Professional"
+        },
+        {
+            "id": "Document_045",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "외부 의존적 행복 추구",
+            "type": "Concept"
+        },
+        {
+            "id": "내부에서 오는 행복",
+            "type": "Concept"
+        },
+        {
+            "id": "애도 과정",
+            "type": "Concept"
+        },
+        {
+            "id": "자기 돌봄",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "전문 상담사 찾기",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_046",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "내부적으로 비명 지르는 느낌",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "감정적 거리감",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "스트레스",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "PTSD",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "전문가 도움 요청",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "Document_047",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "부모님과의 소통 어려움",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "스트레스와 불안",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "친구들의 지지 부족",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "어린 시절 상실감",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "신뢰할 사람 부재",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "자신을 믿지 못함",
+            "type": "Concept"
+        },
+        {
+            "id": "신뢰할 수 있는 성인 찾기",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "전문 상담사",
+            "type": "Provider/Professional"
+        },
+        {
+            "id": "Document_048",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "공허감 (emptiness)",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "긍정 확언 및 감사 일기 쓰기 (affirmation and gratitudes)",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "인식 부족 및 인정 부재",
+            "type": "Concept"
+        },
+        {
+            "id": "Document_049",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "부모님으로부터의 상처",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "자아 정체성 혼란",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "과거의 상처에 대한 재탐색",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "관계에서의 무효화 경험",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "치료사와의 작업",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "경계 설정 능력 향상",
+            "type": "Concept"
+        },
+        {
+            "id": "Document_050",
+            "type": "Document/Interaction"
+        },
+        {
+            "id": "가족 이혼",
+            "type": "Trigger/Event"
+        },
+        {
+            "id": "슬픔과 애도 과정",
+            "type": "Concept"
+        },
+        {
+            "id": "우울장애",
+            "type": "Condition/Disorder"
+        },
+        {
+            "id": "감정 명명 및 공유",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "자해 생각",
+            "type": "Emotion/Symptom"
+        },
+        {
+            "id": "우울증 증상 식별",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "일상 관리 및 영양 섭취",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "운동",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "건강한 사교 활동",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "긍정적인 자기 대화",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "전문가 상담",
+            "type": "Intervention/Strategy"
+        },
+        {
+            "id": "항우울제",
+            "type": "Medication"
+        },
+        {
+            "id": "Karen",
+            "type": "Provider/Professional"
         }
     ],
     "edges": [
         {
-            "source": "Document_001",
-            "target": "Feeling of worthlessness",
+            "source": "Document_046",
+            "target": "스트레스",
             "relation": "HAS_CONTEXT"
         },
         {
-            "source": "Document_001",
-            "target": "Insomnia",
+            "source": "Document_049",
+            "target": "자아 정체성 혼란",
             "relation": "HAS_CONTEXT"
         },
         {
-            "source": "Document_001",
-            "target": "Changing social context",
+            "source": "Document_029",
+            "target": "불안",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_028",
+            "target": "lazy",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "인지행동치료와마음챙김",
+            "target": "anxiety",
+            "relation": "TREATS"
+        },
+        {
+            "source": "Document_035",
+            "target": "심리 상담 (Psychotherapy)",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_008",
+            "target": "발기부전 경험",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_042",
+            "target": "무가치함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_015",
+            "target": "스트레스 완화 방법 탐색",
             "relation": "SUGGESTS"
         },
         {
             "source": "Document_001",
-            "target": "Reading inspirational messages",
+            "target": "나쁜 감정",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_037",
+            "target": "reevaluate relationships",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_028",
+            "target": "numbness",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "최면",
+            "target": "severe depression",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_024",
+            "target": "친구의 우울증 의심",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_013",
+            "target": "슬픈 음악 듣기",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_028",
+            "target": "rest",
             "relation": "SUGGESTS"
         },
         {
-            "source": "Changing social context",
-            "target": "Feeling of worthlessness",
+            "source": "Document_020",
+            "target": "역할 과부하 (Parent Role)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_050",
+            "target": "긍정적인 자기 대화",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "스스로에게 공감하기",
+            "target": "우울증(depression)",
             "relation": "ALLEVIATES"
         },
         {
-            "source": "Reading inspirational messages",
-            "target": "Feeling of worthlessness",
+            "source": "Document_037",
+            "target": "low self esteem",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Depressed mood",
+            "target": "depression",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_043",
+            "target": "수치심",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "우울증",
+            "target": "심한 기분 변화",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_050",
+            "target": "감정 명명 및 공유",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_034",
+            "target": "bad mood",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "chronic pain",
+            "target": "constant pain",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_007",
+            "target": "압도감",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "S.A.D. Light 사용",
+            "target": "비타민 D 수치 증가",
             "relation": "ALLEVIATES"
         },
         {
-            "source": "Self-esteem",
-            "target": "Feeling of worthlessness",
+            "source": "Document_035",
+            "target": "자존감 (Self-esteem)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_009",
+            "target": "집중력 저하",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "감정 식별 및 처리 방법 학습",
+            "target": "슬픔",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_008",
+            "target": "의학적 검진 필요성",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "신뢰와 공통 관심사 기반의 우정",
+            "target": "외로움",
             "relation": "EXPLAINS"
         },
         {
-            "source": "Document_002",
-            "target": "History of sexual abuse",
+            "source": "Document_010",
+            "target": "depression",
             "relation": "HAS_CONTEXT"
         },
         {
-            "source": "Document_002",
-            "target": "Breast cancer survivor",
-            "relation": "HAS_CONTEXT"
-        },
-        {
-            "source": "Document_002",
-            "target": "Insomnia",
-            "relation": "HAS_CONTEXT"
-        },
-        {
-            "source": "Document_002",
-            "target": "Depression",
-            "relation": "HAS_CONTEXT"
-        },
-        {
-            "source": "Document_002",
-            "target": "Anxiety",
-            "relation": "HAS_CONTEXT"
-        },
-        {
-            "source": "Document_002",
-            "target": "Low self-esteem",
-            "relation": "HAS_CONTEXT"
-        },
-        {
-            "source": "Document_002",
-            "target": "Psychotherapy",
-            "relation": "SUGGESTS"
-        },
-        {
-            "source": "Document_002",
-            "target": "Developing coping strategies",
-            "relation": "SUGGESTS"
-        },
-        {
-            "source": "Psychotherapy",
-            "target": "Depression",
+            "source": "개인의 흥미와 선호도 파악",
+            "target": "소속감 부족",
             "relation": "ALLEVIATES"
         },
         {
-            "source": "Psychotherapy",
-            "target": "Anxiety",
+            "source": "자기 돌봄",
+            "target": "슬픔",
             "relation": "ALLEVIATES"
         },
         {
-            "source": "Psychotherapy",
-            "target": "Low self-esteem",
-            "relation": "ALLEVIATES"
+            "source": "Document_029",
+            "target": "미소포니아",
+            "relation": "HAS_CONTEXT"
         },
         {
-            "source": "History of sexual abuse",
-            "target": "Depression",
+            "source": "부모님과의 소통 어려움",
+            "target": "무가치함",
             "relation": "CAUSES"
         },
         {
-            "source": "History of sexual abuse",
-            "target": "Anxiety",
+            "source": "Document_016",
+            "target": "시간 및 에너지 흡수원 식별 및 제한",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "가족 이혼",
+            "target": "우울장애",
             "relation": "CAUSES"
+        },
+        {
+            "source": "Document_043",
+            "target": "고립감",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Psychomotor aggitation or retardation",
+            "target": "depression",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_021",
+            "target": "잃어버린 정체성",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "I-statements 사용",
+            "target": "남편의 무시",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "긍정 확언 및 감사 일기 쓰기 (affirmation and gratitudes)",
+            "target": "공허감 (emptiness)",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "개인적 성장 욕구",
+            "target": "잃어버린 정체성",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "블로그 및 포럼 탐색",
+            "target": "상처받음",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Licensed Professional Counselor",
+            "target": "심리 상담 전문가와의 만남",
+            "relation": "PRESCRIBES"
+        },
+        {
+            "source": "Document_015",
+            "target": "직장 경력 29년",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_038",
+            "target": "Troubled upbringing",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "균형 잡힌 삶",
+            "target": "신체적 접근 및 영적 정화",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "신체적 접근 및 영적 정화",
+            "target": "에너지 부족",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_030",
+            "target": "외로움",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_016",
+            "target": "충분한 수면 취하기",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_037",
+            "target": "not happy overall",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_036",
+            "target": "우울감 (down)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_028",
+            "target": "no interest",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_050",
+            "target": "우울증 증상 식별",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_039",
+            "target": "관계 문제",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "친구들과의 관계 유지",
+            "target": "무가치함",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "chronic pain",
+            "target": "depression",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_016",
+            "target": "타인에게 맞춰주는 사람 (People-pleaser)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Significant weight change or change in appetite",
+            "target": "depression",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "내부적으로 비명 지르는 느낌",
+            "target": "우울증",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_032",
+            "target": "싸움을 유발함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_003",
+            "target": "수면 문제",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "경계 설정의 어려움",
+            "target": "자기 자신을 위한 삶의 창조",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "최근 친구 상실",
+            "target": "외로움",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_027",
+            "target": "통제 불가능한 두려움",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "가족 갈등",
+            "target": "슬픔",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "자기 돌봄 소홀",
+            "target": "낮은 자존감",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Diminished ability to concentrate or indecisiveness",
+            "target": "depression",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_003",
+            "target": "공황 발작 (panic attacks)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_013",
+            "target": "비극적 이야기 읽기",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_050",
+            "target": "슬픔",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "이혼",
+            "target": "무기력한 일상생활",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "회복탄력성 증가",
+            "target": "depression",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_032",
+            "target": "불안",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_024",
+            "target": "공허함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "최면",
+            "target": "anxiety",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_011",
+            "target": "emotional support dog (ESD)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "불안 및 우울증",
+            "target": "우울감",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_032",
+            "target": "사고 과다 활동 (Racing thoughts)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "회복탄력성 증가",
+            "target": "anxiety",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_035",
+            "target": "우울감",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "해결중심단기치료",
+            "target": "depression",
+            "relation": "TREATS"
+        },
+        {
+            "source": "Document_050",
+            "target": "우울함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "낮잠 자기",
+            "target": "수면 문제",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_010",
+            "target": "high anxiety",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Troubled upbringing",
+            "target": "Overwhelmed",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_027",
+            "target": "국가 위기 핫라인 (1-800-273-8255)",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "내면 성찰 및 소통",
+            "target": "결혼 생활 문제",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "새로운 친구 사귀기 노력",
+            "target": "외로움",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_041",
+            "target": "슬픔 (all the time)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_014",
+            "target": "슬픔 (계절성)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "가족 갈등",
+            "target": "무가치함",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "감정적 정화 과정 (clearing out worn out emotional clutter)",
+            "target": "안정화 (stabilize yourself)",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_040",
+            "target": "중립적인 시간 활용",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_013",
+            "target": "부정적인 측면에 집중하는 경향성",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "자기 수용 (self-acceptance)",
+            "target": "안정화 (stabilize yourself)",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Fatigue or loss in energy",
+            "target": "depression",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_016",
+            "target": "영양가 있는 음식 섭취",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "가족 이혼",
+            "target": "슬픔",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_018",
+            "target": "슬픔",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_008",
+            "target": "결혼 생활 문제",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "self-harm",
+            "target": "sad or depressing feelings",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_039",
+            "target": "무기력함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_019",
+            "target": "중독",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "이혼",
+            "target": "기쁨 상실",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "발기부전 경험",
+            "target": "우울증",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_045",
+            "target": "외부 의존적 행복 추구",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_001",
+            "target": "소셜 미디어 메시지 읽기",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_049",
+            "target": "관계에서의 무효화 경험",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "가족 이혼",
+            "target": "우울함",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "치료사 (Therapist)",
+            "target": "상처받음",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_038",
+            "target": "Overwhelmed",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_046",
+            "target": "내부적으로 비명 지르는 느낌",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_025",
+            "target": "불안 발작",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "중립적인 시간 활용",
+            "target": "어머니와의 갈등",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_023",
+            "target": "소속감 부족",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_026",
+            "target": "짜증",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_047",
+            "target": "스트레스와 불안",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_005",
+            "target": "content from day to day",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_025",
+            "target": "thoughts를 통제할 수 없음",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "가족 부양 역할 수행 경험",
+            "target": "타인에게 맞춰주는 사람 (People-pleaser)",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_043",
+            "target": "무가치함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "미처 알지 못하는 이점 찾기",
+            "target": "부정적인 내용에 몰두함",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "가족 관계 문제",
+            "target": "슬픔 (all the time)",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "생각의 재구성",
+            "target": "무가치함",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "커플 상담",
+            "target": "남편의 무시",
+            "relation": "TREATS"
+        },
+        {
+            "source": "Document_019",
+            "target": "단호한 경계 설정 (Clear boundaries)",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_011",
+            "target": "depression",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "내부적으로 비명 지르는 느낌",
+            "target": "PTSD",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_027",
+            "target": "텍사스 위기 핫라인 (800-989-6884)",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "스트레스 상황",
+            "target": "불안 (Anxiety)",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_015",
+            "target": "우울함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "어린 시절 상실감",
+            "target": "신뢰할 사람 부재",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "자기 돌봄 소홀",
+            "target": "우울증",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_050",
+            "target": "건강한 사교 활동",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_005",
+            "target": "strong unsettled emotion from the recent past",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Dr. Virginia Chow",
+            "target": "심리 상담사(Psychologist)와의 상담",
+            "relation": "PRESCRIBES"
+        },
+        {
+            "source": "가족 부양 역할 수행 경험",
+            "target": "혼란스러운 자아 인식",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "의학적 검진 필요성",
+            "target": "심리적 원인 탐색",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "감정 명명 및 공유",
+            "target": "슬픔",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_049",
+            "target": "부모님으로부터의 상처",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "지지적인 외부 관계 찾기",
+            "target": "불안정함",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_035",
+            "target": "college classes",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Decreased interest or pleasure in activities",
+            "target": "depression",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "가족 관계 문제",
+            "target": "자존감 및 자아 가치 (self-esteem and self-worth)",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_044",
+            "target": "만성 질환",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_022",
+            "target": "상담",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "새로운 친구 사귀기 노력",
+            "target": "우울증",
+            "relation": "TREATS"
+        },
+        {
+            "source": "Document_012",
+            "target": "남편의 무시",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_040",
+            "target": "명상 수용",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_019",
+            "target": "혼자만의 시간 갖기",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_014",
+            "target": "사회 활동 증가",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_017",
+            "target": "무가치함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Seasonal Affective Disorder (S.A.D.)",
+            "target": "우울증",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "Document_047",
+            "target": "무가치함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_047",
+            "target": "스트레스와 불안",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_011",
+            "target": "consider a different apartment",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_043",
+            "target": "만연한 죄책감",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_027",
+            "target": "감정적 불편함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_009",
+            "target": "에너지 부족",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_003",
+            "target": "슬픔 (down)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_001",
+            "target": "무가치함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_045",
+            "target": "전문 상담사 찾기",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_032",
+            "target": "삶의 통제감 회복",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "경계 설정의 어려움",
+            "target": "어머니와의 갈등",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "Document_050",
+            "target": "운동",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_020",
+            "target": "아버지의 수감",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_017",
+            "target": "자기 탐색 질문 던지기",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_013",
+            "target": "슬픔에 빠지는 경향성",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_039",
+            "target": "성인 생활 스트레스",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "관계 개선 노력",
+            "target": "불안 및 우울증",
+            "relation": "TREATS"
+        },
+        {
+            "source": "인지행동치료와마음챙김",
+            "target": "depression",
+            "relation": "TREATS"
+        },
+        {
+            "source": "Document_047",
+            "target": "자신을 믿지 못함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_021",
+            "target": "불행하고 갇힌 느낌",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_016",
+            "target": "무기력함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_027",
+            "target": "공황 발작",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "depression",
+            "target": "emotional support dog (ESD)",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_024",
+            "target": "분노와 슬픔",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_027",
+            "target": "우울증 에피소드",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_047",
+            "target": "어린 시절 상실감",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_036",
+            "target": "쉽게 화냄",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_035",
+            "target": "무가치함 (Worthlessness)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "친구들의 지지 부족",
+            "target": "무가치함",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_032",
+            "target": "피부 뜯기 (Skin picking)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "의학적 장애 또는 질환",
+            "target": "직장 생활을 통한 자립",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_031",
+            "target": "지속적인 눈물 흘림",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "전문 치료사와의 탐색",
+            "target": "부정적인 측면에 집중하는 경향성",
+            "relation": "TREATS"
+        },
+        {
+            "source": "Document_045",
+            "target": "슬픔",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "감정적 거리감",
+            "target": "스트레스",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_010",
+            "target": "sad or depressing feelings",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_047",
+            "target": "신뢰할 수 있는 성인 찾기",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "자살 사고 (Suicidal Ideation)",
+            "target": "슬픔",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_047",
+            "target": "신뢰할 사람 부재",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_015",
+            "target": "이혼",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "우울장애",
+            "target": "자해 생각",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_010",
+            "target": "Dialectic Behavior Therapy",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_032",
+            "target": "우울감",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "이혼",
+            "target": "피로함",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "어머니와의 갈등",
+            "target": "좌절감",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_042",
+            "target": "긍정적 감정 경험",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "상담사 조언 (비공식)",
+            "target": "실직 상태",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "therapist",
+            "target": "심리 상담 (Psychotherapy)",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "connective tissue weakness",
+            "target": "Bone spurs, fused discs, and slipped discs",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_044",
+            "target": "무가치함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_009",
+            "target": "심한 기분 변화",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_010",
+            "target": "Interpersonal Neurobiology",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_015",
+            "target": "변호사 상담을 통한 양육권 조정",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_026",
+            "target": "슬픔",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "관계에서의 무효화 경험",
+            "target": "무가치함",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "나쁜 감정",
+            "target": "자기 개선 노력",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "사회적 맥락",
+            "target": "자존감",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "치료사와의 작업",
+            "target": "경계 설정 능력 향상",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "명상",
+            "target": "severe depression",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_037",
+            "target": "moodiness",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "발기부전 경험",
+            "target": "결혼 생활 문제",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "자신의 감정 수용",
+            "target": "슬픔",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Feelings of worthlessness or excessive guilt",
+            "target": "depression",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Therapy at this point in your life",
+            "target": "Depression",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_031",
+            "target": "무가치함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_042",
+            "target": "과잉일반화",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "긴장감 이해하기",
+            "target": "불안 (Anxiety)",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_016",
+            "target": "성취도에 대한 실망",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "자기 수용 및 자기 돌봄",
+            "target": "외로움",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_046",
+            "target": "전문가 도움 요청",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "공허감 (emptiness)",
+            "target": "인식 부족 및 인정 부재",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "Pharmaceutical means",
+            "target": "depression",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "전문가 상담",
+            "target": "우울장애",
+            "relation": "TREATS"
+        },
+        {
+            "source": "Document_045",
+            "target": "애도 과정",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_046",
+            "target": "감정적 거리감",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_046",
+            "target": "PTSD",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_035",
+            "target": "Major Depressive Disorder",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_007",
+            "target": "adult ADHD",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "겨울 날씨 변화",
+            "target": "슬픔 (계절성)",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_036",
+            "target": "수면 장애 (불면)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "명상",
+            "target": "anxiety",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Psychologist",
+            "target": "상담",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_016",
+            "target": "경계 설정하기",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "소속감 부족",
+            "target": "자아 정체성 확립의 어려움",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "Document_033",
+            "target": "therapist 찾기 (Psychology Today, Counsel Chat)",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_045",
+            "target": "내부에서 오는 행복",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "우울장애",
+            "target": "무가치함",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_024",
+            "target": "치료(Therapy)",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "만성 질환",
+            "target": "무가치함",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_023",
+            "target": "의학적 장애 또는 질환",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_017",
+            "target": "슬픔",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_027",
+            "target": "삶과 죽음에 대한 무관심",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "know you deserve to be restored to whole",
+            "target": "fear of abandonment",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_038",
+            "target": "Depression",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "가족과의 대화 어려움",
+            "target": "감정적 불편함",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "낮잠 자기",
+            "target": "수면 문제",
+            "relation": "TREATS"
+        },
+        {
+            "source": "직장 생활을 통한 자립",
+            "target": "자아 정체성 확립의 어려움",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_034",
+            "target": "depression",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_017",
+            "target": "자살 사고 (Suicidal Ideation)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_008",
+            "target": "자존감 저하",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "남편의 무시",
+            "target": "우울감",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_050",
+            "target": "일상 관리 및 영양 섭취",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "명상 수용",
+            "target": "좌절감",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_038",
+            "target": "Childhood therapy experience",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_022",
+            "target": "depression",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_017",
+            "target": "자신을 공부하기",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_033",
+            "target": "depressed",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "전문 치료사와의 탐색",
+            "target": "슬픔에 빠지는 경향성",
+            "relation": "TREATS"
+        },
+        {
+            "source": "Document_022",
+            "target": "anxiety",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_014",
+            "target": "Seasonal Affective Disorder (S.A.D.)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_022",
+            "target": "우울감 악화",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "상담사 조언 (비공식)",
+            "target": "압도감",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "introverted behavior",
+            "target": "사회적 위축 (Social Withdrawal)",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "Document_027",
+            "target": "심리 상담 전문가와의 만남",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_008",
+            "target": "스트레스 (직장)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_040",
+            "target": "어머니와의 갈등",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_029",
+            "target": "우울증",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_018",
+            "target": "사랑의 어려움",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "자기 자신에게 집중하기",
+            "target": "자존감 향상",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "Document_014",
+            "target": "S.A.D. Light 사용",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Caring therapist",
+            "target": "Finding faith in yourself",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "긍정적 자기 대화",
+            "target": "Document_022",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_011",
+            "target": "landlord rejection",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_050",
+            "target": "자기 돌봄",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_035",
+            "target": "사회적 위축 (Social Withdrawal)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_020",
+            "target": "지지적인 외부 관계 찾기",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "슬픔 (all the time)",
+            "target": "우울증 (Depression)",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_014",
+            "target": "겨울 날씨 변화",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "landlord rejection",
+            "target": "consider a different apartment",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_041",
+            "target": "심리 상담사(Psychologist)와의 상담",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "명상",
+            "target": "우울감 악화",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_050",
+            "target": "가족 이혼",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_025",
+            "target": "jaded",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "상담사",
+            "target": "자기 수용 및 자기 돌봄",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_005",
+            "target": "reflect on situations in our lives",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "일기 쓰기",
+            "target": "anxiety",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_038",
+            "target": "Therapy at this point in your life",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_049",
+            "target": "치료사와의 작업",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_020",
+            "target": "상처받음",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_047",
+            "target": "친구들의 지지 부족",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_004",
+            "target": "명상",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_040",
+            "target": "우울증",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "심한 기분 변화",
+            "target": "에너지 부족",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_025",
+            "target": "불안 (Anxiety)",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "스트레스 상황",
+            "target": "긴장감 이해하기",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_046",
+            "target": "우울증",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "무가치함",
+            "target": "자존감",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "Document_025",
+            "target": "생각에 주의 기울이기",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_036",
+            "target": "울기 쉬움",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_036",
+            "target": "우울증",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "depression",
+            "target": "self-harm",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_024",
+            "target": "상담 및 도움 요청",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "발기부전 경험",
+            "target": "자존감 저하",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "Document_023",
+            "target": "직장 생활을 통한 자립",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_027",
+            "target": "청소년기",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_029",
+            "target": "경계성 성격 장애",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_048",
+            "target": "공허감 (emptiness)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "신뢰할 수 있는 성인 찾기",
+            "target": "전문 상담사",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "calcium deposits",
+            "target": "severe back problem",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_023",
+            "target": "개인의 흥미와 선호도 파악",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "삶의 통제감 회복",
+            "target": "불안 및 우울증",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_016",
+            "target": "신선한 공기 <0xEC><0x90><0xAC>기",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "natural means",
+            "target": "chronic pain",
+            "relation": "TREATS"
+        },
+        {
+            "source": "감정의 실재성",
+            "target": "슬픔",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "모든 감정의 목적",
+            "target": "짜증",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "Document_050",
+            "target": "항우울제",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "치료사와의 작업",
+            "target": "자아 정체성 혼란",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_032",
+            "target": "싸움을 유발함",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "성인 생활 스트레스",
+            "target": "우울감",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_018",
+            "target": "가족과의 거리감",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "physician",
+            "target": "depression",
+            "relation": "TREATS"
+        },
+        {
+            "source": "Document_043",
+            "target": "자기애와 친절함",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "감정적 불편함",
+            "target": "가족과의 대화 어려움",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Irritable mood",
+            "target": "bad mood",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "general anxiety",
+            "target": "emotional support dog (ESD)",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_004",
+            "target": "severe depression",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_004",
+            "target": "마음이 산만함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_020",
+            "target": "불안정함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_031",
+            "target": "슬픔",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_039",
+            "target": "우울감",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_024",
+            "target": "걱정",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_019",
+            "target": "우울함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_041",
+            "target": "우울증 (Depression)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "endorphins release",
+            "target": "self-harm",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "만성 질환",
+            "target": "삶의 변화에 대한 절망감",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_007",
+            "target": "anxiety disorder",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "자기 수용 (self-acceptance)",
+            "target": "슬픔 (down)",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "가족 시스템 이론 학습",
+            "target": "무가치함",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_016",
+            "target": "집중력 부족",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Change in sleep (insomnia or hypersomnia)",
+            "target": "depression",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_034",
+            "target": "lack of energy",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_009",
+            "target": "어두운 삶의 전망",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Irritable mood",
+            "target": "depression",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "자기애와 친절함",
+            "target": "우울증(depression)",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "우울증 에피소드",
+            "target": "공황 발작",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_041",
+            "target": "치료사(Therapist)의 도움",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_029",
+            "target": "회피성 성격 장애",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "depression",
+            "target": "anxiety",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_049",
+            "target": "무가치함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_010",
+            "target": "endorphins release",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_001",
+            "target": "수면 부족",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "high anxiety",
+            "target": "self-harm",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "natural means",
+            "target": "depression",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_019",
+            "target": "이능화(Enabling)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_043",
+            "target": "외로움",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_001",
+            "target": "사회적 맥락",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Interpersonal Neurobiology",
+            "target": "self-harm",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "therapist",
+            "target": "depression",
+            "relation": "TREATS"
+        },
+        {
+            "source": "Document_014",
+            "target": "심리 치료 참여",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_026",
+            "target": "특정 사람과의 만남",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "severe back problem",
+            "target": "constant pain",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_001",
+            "target": "자존감",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_024",
+            "target": "고립됨",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_025",
+            "target": "집중력 저하",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_001",
+            "target": "긍정적인 관계 형성",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "대화 시간 계획 및 메모 작성",
+            "target": "남편의 무시",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_037",
+            "target": "trust issues",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "발기부전 경험",
+            "target": "자존감 저하",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Karen",
+            "target": "항우울제",
+            "relation": "PRESCRIBES"
+        },
+        {
+            "source": "Document_006",
+            "target": "severe back problem",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_004",
+            "target": "최면",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Thoughts of suicide or plan",
+            "target": "depression",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_048",
+            "target": "인식 부족 및 인정 부재",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "이혼",
+            "target": "압도감",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_015",
+            "target": "휴식 및 자기 돌봄 시간 확보",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_047",
+            "target": "부모님과의 소통 어려움",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_037",
+            "target": "fear of abandonment",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_013",
+            "target": "부정적인 내용에 몰두함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_004",
+            "target": "anxiety",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "모든 감정의 목적",
+            "target": "슬픔",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "해결중심단기치료",
+            "target": "anxiety",
+            "relation": "TREATS"
+        },
+        {
+            "source": "Document_012",
+            "target": "우울감",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_019",
+            "target": "개인적 성찰",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_016",
+            "target": "방향 상실감",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_016",
+            "target": "즐거운 활동 참여",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "우울증",
+            "target": "무가치함",
+            "relation": "CO-OCCURS_WITH"
+        },
+        {
+            "source": "Document_021",
+            "target": "무가치함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_036",
+            "target": "식욕 변화 (과도한 배고픔 또는 식욕 부진)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "관계 문제",
+            "target": "무기력함",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_004",
+            "target": "일기 쓰기",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_007",
+            "target": "depression",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_037",
+            "target": "reflect on topics",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_037",
+            "target": "empty and emotionless",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Licensed Professional Counselor",
+            "target": "Document_026",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Dialectic Behavior Therapy",
+            "target": "self-harm",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_008",
+            "target": "우울증",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_020",
+            "target": "감정적 붕괴 (Breaking Down)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_007",
+            "target": "실직 상태",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_045",
+            "target": "자기 돌봄",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_009",
+            "target": "우울증",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_027",
+            "target": "학교 상담사 연락",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_031",
+            "target": "가족 갈등",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "사랑받는 느낌",
+            "target": "우울증",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_042",
+            "target": "anxiety",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "이혼",
+            "target": "통제력 상실감",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "감정 식별 및 처리 방법 학습",
+            "target": "짜증",
+            "relation": "ALLEVIATES"
+        },
+        {
+            "source": "Document_008",
+            "target": "내면 성찰 및 소통",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_010",
+            "target": "self-harm",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_039",
+            "target": "자기 자신에게 집중하기",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "정서적 지지 부족",
+            "target": "압도감",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_006",
+            "target": "constant pain",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_049",
+            "target": "과거의 상처에 대한 재탐색",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_030",
+            "target": "최근 친구 상실",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_018",
+            "target": "무가치함",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Teenage years",
+            "target": "moodiness",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "Document_018",
+            "target": "상실감",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_026",
+            "target": "집에 가는 상황",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_030",
+            "target": "우울증",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "타인에게 맞춰주는 사람 (People-pleaser)",
+            "target": "자기 돌봄 소홀",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "Document_020",
+            "target": "블로그 및 포럼 탐색",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "sad or depressing feelings",
+            "target": "self-harm",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "부모님으로부터의 상처",
+            "target": "무가치함",
+            "relation": "CAUSES"
+        },
+        {
+            "source": "슬픔과 애도 과정",
+            "target": "슬픔",
+            "relation": "EXPLAINS"
+        },
+        {
+            "source": "Document_011",
+            "target": "general anxiety",
+            "relation": "HAS_CONTEXT"
         },
         {
             "source": "Depression",
-            "target": "Anxiety",
+            "target": "Overwhelmed",
             "relation": "CO-OCCURS_WITH"
         },
         {
-            "source": "Depression",
-            "target": "Insomnia",
-            "relation": "CO-OCCURS_WITH"
-        },
-        {
-            "source": "Anxiety",
-            "target": "Insomnia",
-            "relation": "CO-OCCURS_WITH"
-        },
-        {
-            "source": "Document_003",
-            "target": "Depressive mood",
+            "source": "Document_041",
+            "target": "가족에 대한 부정적 감정",
             "relation": "HAS_CONTEXT"
         },
         {
-            "source": "Document_003",
-            "target": "Insomnia",
+            "source": "Document_023",
+            "target": "좋은 시간을 보내도 공허함",
             "relation": "HAS_CONTEXT"
         },
         {
-            "source": "Document_003",
-            "target": "Panic attacks",
+            "source": "Document_035",
+            "target": "late teens",
             "relation": "HAS_CONTEXT"
         },
         {
-            "source": "Document_003",
-            "target": "Self-acceptance",
-            "relation": "SUGGESTS"
-        },
-        {
-            "source": "Document_003",
-            "target": "Daytime sleeping",
-            "relation": "SUGGESTS"
-        },
-        {
-            "source": "Self-acceptance",
-            "target": "Depressive mood",
-            "relation": "ALLEVIATES"
-        },
-        {
-            "source": "Daytime sleeping",
-            "target": "Insomnia",
-            "relation": "ALLEVIATES"
-        },
-        {
-            "source": "Panic attacks",
-            "target": "Insomnia",
-            "relation": "CO-OCCURS_WITH"
-        },
-        {
-            "source": "Document_004",
-            "target": "Depression",
-            "relation": "HAS_CONTEXT"
-        },
-        {
-            "source": "Document_004",
-            "target": "Anxiety",
-            "relation": "HAS_CONTEXT"
-        },
-        {
-            "source": "Document_004",
-            "target": "Meditation",
-            "relation": "SUGGESTS"
-        },
-        {
-            "source": "Document_004",
-            "target": "Hypnosis",
-            "relation": "SUGGESTS"
-        },
-        {
-            "source": "Document_004",
-            "target": "Journaling",
-            "relation": "SUGGESTS"
-        },
-        {
-            "source": "Meditation",
-            "target": "Anxiety",
-            "relation": "ALLEVIATES"
-        },
-        {
-            "source": "Meditation",
-            "target": "Depression",
-            "relation": "ALLEVIATES"
-        },
-        {
-            "source": "Hypnosis",
-            "target": "Anxiety",
-            "relation": "ALLEVIATES"
-        },
-        {
-            "source": "Hypnosis",
-            "target": "Depression",
-            "relation": "ALLEVIATES"
-        },
-        {
-            "source": "Journaling",
-            "target": "Anxiety",
-            "relation": "ALLEVIATES"
-        },
-        {
-            "source": "Document_005",
-            "target": "Lack of contentment",
-            "relation": "HAS_CONTEXT"
-        },
-        {
-            "source": "Document_005",
-            "target": "Unsettled emotions",
-            "relation": "HAS_CONTEXT"
-        },
-        {
-            "source": "Document_005",
-            "target": "Emotional self-awareness",
-            "relation": "SUGGESTS"
-        },
-        {
-            "source": "Upsetting events in the recent past",
-            "target": "Unsettled emotions",
+            "source": "최근 친구 상실",
+            "target": "우울증",
             "relation": "CAUSES"
         },
         {
-            "source": "Emotional self-awareness",
-            "target": "Unsettled emotions",
-            "relation": "ALLEVIATES"
+            "source": "Document_039",
+            "target": "분노",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_021",
+            "target": "자신에게 시간 주기",
+            "relation": "SUGGESTS"
+        },
+        {
+            "source": "Document_043",
+            "target": "우울증(depression)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_017",
+            "target": "불안정감 (Insecurity)",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_044",
+            "target": "외로움",
+            "relation": "HAS_CONTEXT"
+        },
+        {
+            "source": "Document_006",
+            "target": "depression",
+            "relation": "HAS_CONTEXT"
         }
     ]
 }
