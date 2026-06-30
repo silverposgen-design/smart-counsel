@@ -1,6 +1,7 @@
 import csv
 import json
 import os
+import re
 import sys
 from langchain_ollama import ChatOllama
 
@@ -86,10 +87,10 @@ for idx, conv in enumerate(unique_conversations):
     
     # Construct input text for LLM
     input_text = f"""
-    [대화 원본]
-    상담 문서 번호: {doc_id}
-    내담자 질문 (Context): {ctx}
-    상담사 답변 (Response): {resp}
+    [Counseling Conversation]
+    Document ID: {doc_id}
+    Client Question (Context): {ctx}
+    Counselor Response (Response): {resp}
     """
     
     try:
@@ -121,6 +122,12 @@ for idx, conv in enumerate(unique_conversations):
             if node_type.lower() == "document/interaction" or node_id.startswith("Document_"):
                 # Always map document nodes back to the current doc_id being processed
                 node_id = doc_id
+                
+            # Check for Korean characters in node_id
+            if re.search(r'[ㄱ-ㅣ가-힣]', node_id):
+                print(f"  [WARN] Korean characters detected in node ID: '{node_id}'")
+            else:
+                print(f"  Extracted Node: '{node_id}' ({node_type})")
                 
             # Normalize type
             norm_type = VALID_NODE_TYPES.get(node_type.lower(), "Concept")
