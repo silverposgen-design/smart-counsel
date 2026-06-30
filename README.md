@@ -2,7 +2,7 @@
 
 정신 건강 상담 데이터셋(`Dataset_small.csv` 및 `Dataset_large.csv`)에서 심리 증상, 유발 사건, 치료 전략, 개념 간의 관계를 지식 그래프(Knowledge Graph) 형태로 추출하고, 이를 Neo4j 벡터 인덱스와 결합하여 전문적인 심리 상담 답변을 제공하는 **상담 GraphRAG 시스템**입니다.
 
-이 프로젝트는 소규모 데이터셋(`1_dataset_small_neo4j`)과 대규모 데이터셋(`2_dataset_large_neo4j`) 두 가지 버전을 지원합니다.
+이 프로젝트는 소규모 데이터셋(`dataset_small_neo4j`)과 대규모 데이터셋(`dataset_large_neo4j`) 두 가지 버전을 지원합니다.
 
 ---
 
@@ -10,7 +10,7 @@
 
 ```text
 project-counsel-graphRAG/
-├── 1_dataset_small_neo4j/                # 소규모 데이터셋 (Small Dataset) 폴더
+├── dataset_small_neo4j/                # 소규모 데이터셋 (Small Dataset) 폴더
 │   ├── Dataset_small.csv                 # 텍스트 원본 데이터 (Small)
 │   ├── schema.json         # 지식 그래프 JSON 스키마 정의
 │   ├── extraction_prompt.md  # 스키마 데이터 추출을 위한 프롬프트 정의
@@ -18,7 +18,7 @@ project-counsel-graphRAG/
 │   ├── load_graph.py    # 노드/엣지 데이터를 Neo4j에 로드하는 스키마 주입 스크립트
 │   └── load_vector_chunks.py    # 텍스트를 청크 분할 및 임베딩 벡터화 후 인덱싱하는 스크립트
 │
-├── 2_dataset_large_neo4j/                # 대규모 데이터셋 (Large Dataset) 폴더
+├── dataset_large_neo4j/                # 대규모 데이터셋 (Large Dataset) 폴더
 │   ├── Dataset_large.csv                 # 텍스트 원본 데이터 (Large)
 │   ├── schema.json         # 지식 그래프 JSON 스키마 정의
 │   ├── extraction_prompt.md  # 스키마 데이터 추출을 위한 프롬프트 정의
@@ -41,7 +41,7 @@ project-counsel-graphRAG/
 * `Dataset_xxx.csv` 와 `extraction_prompt.md` 프롬프트 문서를 참고해 AI 모델을 이용하여 그래프 형식에 맞게 노드와 엣지 목록을 가진 `graph_data.json` 데이터 파일을 생성합니다.
 * Large 데이터의 경우 아래 스크립트를 실행하여 그래프 데이터를 추출할 수 있습니다:
   ```bash
-  python ./2_dataset_large_neo4j/extract_graph.py
+  python ./dataset_large_neo4j/extract_graph.py
   ```
 
 ### 3단계: Neo4j 그래프 데이터베이스 적재
@@ -49,10 +49,10 @@ project-counsel-graphRAG/
 * 사용 예시에 따라 아래 스크립트 중 하나를 실행합니다.
   ```bash
   # Small 데이터 적재
-  python ./1_dataset_small_neo4j/load_graph.py
+  python ./dataset_small_neo4j/load_graph.py
 
   # Large 데이터 적재
-  python ./2_dataset_large_neo4j/load_graph.py
+  python ./dataset_large_neo4j/load_graph.py
   ```
 
 ### 4단계: 대화 청크 분할, 임베딩 벡터화 및 인덱스 빌드
@@ -60,10 +60,10 @@ project-counsel-graphRAG/
 * 동시에 기존 그래프 노드들과 `MENTIONS` 관계로 연결하고 코사인 유사도 벡터 인덱스를 구축합니다. **(실행 시 기존에 저장되어 있던 모든 `Chunk` 노드와 `chunk_embedding_index` 벡터 인덱스는 자동으로 삭제 후 재생성됩니다.)**
   ```bash
   # Small 데이터 청킹 및 임베딩 설정
-  python ./1_dataset_small_neo4j/load_vector_chunks.py
+  python ./dataset_small_neo4j/load_vector_chunks.py
 
   # Large 데이터 청킹 및 임베딩 설정
-  python ./2_dataset_large_neo4j/load_vector_chunks.py
+  python ./dataset_large_neo4j/load_vector_chunks.py
   ```
 
 ### 5단계: GraphRAG 인터랙티브 챗 실행 및 답변 평가
