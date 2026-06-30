@@ -31,15 +31,14 @@ with open(csv_file_path, "r", encoding="utf-8") as f:
             if ctx not in seen_contexts:
                 seen_contexts.add(ctx)
                 idx = len(unique_conversations) + 1
-                doc_id = f"Document_00{idx}"
+                doc_id = f"Document_{idx:03d}"
                 chunk_text = f"[Context]\n{ctx}\n\n[Response]\n{resp}"
                 unique_conversations.append({
                     "doc_id": doc_id,
-                    "chunk_id": f"chunk_00{idx}",
+                    "chunk_id": f"chunk_{idx:03d}",
                     "text": chunk_text
                 })
-                if len(unique_conversations) >= 5:
-                    break
+
 
 print(f"Loaded {len(unique_conversations)} unique conversations for chunking.")
 

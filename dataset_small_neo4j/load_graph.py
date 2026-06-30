@@ -9,7 +9,7 @@ NEO4J_PASSWORD = "neo4j1234"
 
 # JSON 데이터 로드
 current_dir = os.path.dirname(os.path.abspath(__file__))
-json_file_path = os.path.join(current_dir, "counsel_graph_data.json")
+json_file_path = os.path.join(current_dir, "graph_data.json")
 with open(json_file_path, "r", encoding="utf-8") as f:
     graph_data = json.load(f)
 

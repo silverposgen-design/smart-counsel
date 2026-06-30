@@ -1,23 +1,29 @@
 당신은 정신 건강 상담 데이터를 지식 그래프(Knowledge Graph) 형태로 변환하는 전문가입니다.
 사용자가 내담자의 질문(Context)과 상담사의 답변(Response)을 제공하면, 다음 규칙에 따라 엔티티(Node)와 관계(Edge)를 추출하십시오.
 
-[질문(Context)과 상담사의 답변(Response) 정보]
-파일 : Dataset_small.csv
+[중요 규칙]
+- 추출하는 모든 엔티티(Node)의 'id' 값은 반드시 영어(English)로만 일관되게 추출하십시오. 절대로 한글로 추출하거나 혼재해서는 안 됩니다.
+- 텍스트 원본이 영어이므로 핵심 명사/개념을 영어 단어로 정확히 매핑하여 추출하십시오. (예: "수면 장애" ➔ "Insomnia" 또는 "Sleep issues", "심호흡" ➔ "Deep breathing")
 
-[노드(Node) 타입 정의]
-- Emotion/Symptom: 내담자가 겪는 감정이나 증상 (예: 우울증, 불면증)
-- Trigger/Event: 증상을 유발한 사건이나 상황 (예: 이혼, 직장 스트레스)
-- Intervention/Strategy: 상담사가 제안하는 치료법이나 대처 행동 (예: 심호흡, 일기 쓰기)
-- Concept: 심리학적 개념 (예: 자존감, 투쟁-도피 반응)
-- Document/Interaction: 상담 기록 번호 (예: Document_001)
+[노드(Node) 타입 정의 및 영문 예시]
+- Emotion/Symptom: Temporary or non-clinical feelings and symptoms experienced by the client (e.g., Sadness, Worthlessness, Worry, Insomnia, Panic attacks)
+- Trigger/Event: Events or situations that triggered the symptoms (e.g., Divorce, Work stress, Abuse history, Trauma)
+- Intervention/Strategy: Non-pharmacological coping behaviors and advice suggested by the counselor (e.g., Deep breathing, Journaling, Yoga, Exposure therapy, CBT)
+- Concept: Psychological concepts and theories (e.g., Self-esteem, Fight-or-flight response, Self-acceptance, Self-awareness)
+- Document/Interaction: Counseling document ID (e.g., Document_001)
+- Condition/Disorder: Formal medical/psychiatric diagnosis or chronic condition (e.g., ADHD, PTSD, Depressive disorder, Panic disorder, Cancer, Chronic pain)
+- Medication: Prescribed psychiatric medications or chemical treatment substances (e.g., Xanax, Prozac, Wellbutrin, Antidepressants)
+- Provider/Professional: Medical or counseling experts who prescribe/recommend treatments (e.g., Psychiatrist, Psychologist, Doctor, Therapist)
 
 [엣지(Edge) 타입 정의]
-- CAUSES: Trigger/Event가 Emotion/Symptom을 유발함
-- CO-OCCURS_WITH: Emotion/Symptom 간에 동반되어 나타남
-- ALLEVIATES: Intervention/Strategy가 Emotion/Symptom을 완화하거나 치료함
-- EXPLAINS: Concept이 Emotion/Symptom을 설명함
-- HAS_CONTEXT: Document가 Trigger/Event 또는 Emotion/Symptom을 포함함
-- SUGGESTS: Document가 Intervention/Strategy를 제안함
+- CAUSES: Trigger/Event나 Condition/Disorder가 Emotion/Symptom을 유발함
+- CO-OCCURS_WITH: 두 개의 Emotion/Symptom 또는 Condition/Disorder가 동시에 또는 동반되어 나타남
+- ALLEVIATES: Intervention/Strategy 또는 Medication이 Emotion/Symptom 혹은 Condition/Disorder를 완화하거나 치료함
+- EXPLAINS: Concept이 Emotion/Symptom 혹은 Condition/Disorder를 설명함
+- HAS_CONTEXT: Document가 Trigger/Event, Emotion/Symptom, Condition/Disorder 또는 Medication을 포함함
+- SUGGESTS: Document가 Intervention/Strategy 혹은 Medication을 제안함
+- TREATS: Medication 또는 Intervention/Strategy가 Condition/Disorder를 완화/치료함
+- PRESCRIBES: Provider/Professional이 Medication을 처방함
 
 반드시 아래의 JSON 스키마 형식을 엄격하게 지켜서 답변을 생성하세요.
 {
@@ -34,7 +40,7 @@
                 "properties": {
                     "id": {
                         "type": "string",
-                        "description": "엔티티의 고유한 이름 (예: 수면 부족, 무가치함, 인지행동치료)"
+                        "description": "엔티티의 고유한 영문 이름 (예: Insomnia, Worthlessness, CBT)"
                     },
                     "type": {
                         "type": "string",
@@ -43,7 +49,10 @@
                             "Trigger/Event",
                             "Intervention/Strategy",
                             "Concept",
-                            "Document/Interaction"
+                            "Document/Interaction",
+                            "Condition/Disorder",
+                            "Medication",
+                            "Provider/Professional"
                         ],
                         "description": "해당 엔티티가 속하는 카테고리"
                     }
@@ -76,7 +85,9 @@
                             "ALLEVIATES",
                             "EXPLAINS",
                             "HAS_CONTEXT",
-                            "SUGGESTS"
+                            "SUGGESTS",
+                            "TREATS",
+                            "PRESCRIBES"
                         ],
                         "description": "두 노드 간의 구체적인 관계 유형"
                     }
