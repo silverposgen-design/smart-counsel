@@ -1,0 +1,79 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "MentalHealthGraphExtraction",
+    "description": "정신 건강 상담 텍스트에서 노드(엔티티)와 엣지(관계)를 추출하기 위한 스키마",
+    "type": "object",
+    "properties": {
+        "nodes": {
+            "type": "array",
+            "description": "텍스트에서 추출된 심리적 상태, 원인, 치료법 등의 엔티티 목록",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "description": "엔티티의 고유한 이름 (예: 수면 부족, 무가치함, 인지행동치료)"
+                    },
+                    "type": {
+                        "type": "string",
+                        "enum": [
+                            "Emotion/Symptom",
+                            "Trigger/Event",
+                            "Intervention/Strategy",
+                            "Concept",
+                            "Document/Interaction",
+                            "Condition/Disorder",
+                            "Medication",
+                            "Provider/Professional"
+                        ],
+                        "description": "해당 엔티티가 속하는 카테고리"
+                    }
+                },
+                "required": [
+                    "id",
+                    "type"
+                ]
+            }
+        },
+        "edges": {
+            "type": "array",
+            "description": "추출된 노드들 간의 관계를 정의하는 목록",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "source": {
+                        "type": "string",
+                        "description": "관계가 시작되는 노드의 id (원인, 문서, 치료법 등)"
+                    },
+                    "target": {
+                        "type": "string",
+                        "description": "관계가 도착하는 노드의 id (결과, 증상 등)"
+                    },
+                    "relation": {
+                        "type": "string",
+                        "enum": [
+                            "CAUSES",
+                            "CO-OCCURS_WITH",
+                            "ALLEVIATES",
+                            "EXPLAINS",
+                            "HAS_CONTEXT",
+                            "SUGGESTS",
+                            "TREATS",
+                            "PRESCRIBES"
+                        ],
+                        "description": "두 노드 간의 구체적인 관계 유형"
+                    }
+                },
+                "required": [
+                    "source",
+                    "target",
+                    "relation"
+                ]
+            }
+        }
+    },
+    "required": [
+        "nodes",
+        "edges"
+    ]
+}
